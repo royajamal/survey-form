@@ -11,55 +11,31 @@
       Registration Form
     </h1>
     <p id="description">Please fill out this form with the required information</p>
-    <form id="Survey-Form">
-        <label for="name" id="name-label">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required>
-        <label for="email" id="email-label">Email</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-        <label for="number" id="number-label">Number</label>
-
-        <input type="number" id="number" name="number" placeholder="Enter a vailed number" required>
-        <!--Dropdown select-->
-        <label for="dropdown" id="dropdown-label">select an option</label>
-        <select id="dropdown" name="dropdown">
-            <option value="option1">Option1</option>
-            <option value="option2">Option2</option>
-            <option value="option3">Option3</option>
-        </select>
-        <textarea id="option" name="option" rows="4" cols="50"></textarea>
-        <button id="submit" type="submit">submit</button>
 </body>
-<div class="container">
-    <h1>
-      Survey-Form
-    </h1>
     <form id="survey-form">
-     <div class="form-group">
-        <label id="name-label" for="name">Name:</label>
-        <input type="text"id="name" name="name" required=> 
-</div>
-<div class="form-group">
-    <label id="email-label" for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-    </div>
-    <div class="form-group">
-        <label id="number-label" for="age">Age:</label>
-        <input type="number" id="number" name="number"placeholder="0775109473" min="1" max="100">
-        <div class="form-group"><label for="dropdown">Gender:</label><select id="dropdown" name="dropdown"> <option value="option1">option 1 </option> <option value="option1"> option 2 </option> <option value="option3"> option 3 </option> </select> <label for="checkbox1"> checkbox </label> <input
-        type="checkbox" id="checkbox1" name="checkbox" value="checkbox1" >Male </label>
-    <label for="checkbox2"> </label><input type="checkbox" id="checkbox2"  name="checkbox2" value="checkbox2" >Female</label>
-<label><input type="radio" name="gender" value="other" >Other</label>
-</div>
-    <div class="form-group">
-        <label
-        for="comments">Comments:</label>
-        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
-    </div>
-    <button id="submit" type="submit">submit</button>
+     <label for="name" id="name-label"> Name</label>
+     <input type="text"id="name" name="name" placeholder="Enter your name" required>
+<label for="email" id="email-label">
+Email</label>
+<input type="email" id="email" name="email" placeholder="Enter your email" required>
+<label for="number" id="number-label">Number</label>
+<input type="number" id="number"
+name="number" max="1" min="100"  placeholder="Enter your phone number" required>
+<label for="dropdown" id="dropdown-label">Select an option</label>
+<select id="dropdown"name="dropdown">
+<option value="option1">option1</option> </select>
+<select id="dropdown"name="dropdown">
+<option value="option2">option2</option>
+</select>
+<select id="dropdown"name="dropdown">
+<option value="option3">option3</option> </select>
+<textarea>additional comments
+</textarea>
+<input id="submit" type="submit">
+<input type="radio" value="radio" name="radio">
+<input type="radio" value="radio" name="radio">
+<input type="checkbox" value="checkbox">
+<input type="checkbox" value="checkbox">
 </form>
-</div>
-<script src="scripts.js"></script>
 </body>
 </html>
-
-        f
