@@ -14,3 +14,8 @@ label {
   display: block;
   margin: 0.5em 0;
 }
+
+p, h1 {
+  text-align: center;
+  margin: 0.5em auto;
+}
