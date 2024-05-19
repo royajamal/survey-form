@@ -1,58 +1,11 @@
 body {
-  font-family: 'Times New Roman', Times, serif;
-  background-color: blueviolet;
-  margin: 0%;
-  padding: 0;
-}
-
-title {
-  text-align: center;
+  width: 100;
+  height: 100;
+  margin: 0;
   color: black;
-}
-
-description {
-  text-align: center;
-  color: grey;
-}
-
-survey-form {
+  font-family: Tahoma;
   background-color: white;
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 9px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-input[type="text"]
-input[type="email"]
-
-textarea {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 16px;
-  border: 1px;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-
-select {
-  appearance: none;
-}
-
-textarea {
-  resize: vertical;
-}
-
-button {
-  display: block;
-  color: azure;
-  border: none
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button {
-  background-color: aquamarine;
+  background-size: cover;
+  background-position: fixed;
+  font-size: 18px;
 }
