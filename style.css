@@ -42,3 +42,7 @@ input, textarea, select {
 textarea {
   height: unset;
 }
+
+input[type="radio"], input[type="checkbox"] {
+  width: 6%;
+}
