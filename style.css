@@ -3,7 +3,6 @@ body {
   height: 100;
   margin: 0;
   color: black;
-  font-family: generic;
   background-color: white;
   background-size: cover;
   background-position: fixed;
@@ -46,7 +45,8 @@ textarea {
   height: unset;
 }
 
-input[type="radio"], input[type="checkbox"]
+input[type="radio"],
+ input[type="checkbox"]
 
 {
   width: 6%;
