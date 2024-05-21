@@ -1,0 +1,51 @@
+body {
+  width: 100;
+  height: 100;
+  margin: 0;
+  color: black;
+  background-color: white;
+  background-size: cover;
+  background-position: fixed;
+  font-size: 18px;
+}
+
+label {
+  display: block;
+  margin: 0.5em 0;
+}
+
+p,
+h1 {
+  text-align: center;
+  margin: 0.5em auto;
+}
+
+p {
+  font-style: italic;
+}
+
+form {
+  margin: 30px auto;
+  width: 80%;
+  max-width: 300px;
+  background-color: white;
+  padding: 10px 30px 20px 30px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  margin: 10px 0 0 0;
+  height: 2em;
+  font-size: 1rem;
+}
+
+textarea {
+  height: unset;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: 6%;
+}
